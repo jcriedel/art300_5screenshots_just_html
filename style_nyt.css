@@ -1,0 +1,37 @@
+.header {
+    width: 100vw;
+    background-color: grey;
+    height: 250px;
+    margin: auto;
+}
+.header_2 {
+    width: 30vw;
+    background-color: black;
+    height: 25px;
+    margin: auto;
+    margin-top: 20px;
+}
+.header_3 {
+    width: 75vw;
+    background-color: grey;
+    height: 25px;
+    margin: auto;
+    margin-top: 20px;
+}
+.cluster_1 {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 2fr 0.5fr 0.5fr;
+    width: 70vw;
+    height: 400px;
+    margin-top: 20px;
+}
+.grey {
+    background-color: grey;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color:white;
+}

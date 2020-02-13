@@ -1,0 +1,115 @@
+.white_header {
+    width: 100vw;
+    height: 20px;
+    background-color: white;
+    margin: auto;
+}
+.blue_header {
+    width: 100vw;
+    height: 20px;
+    background-color:blue;
+    margin: auto;
+}
+.blue_header_2 {
+    width: 100vw;
+    height: 100px;
+    background-color:blue;
+    margin: auto;
+    margin-top: 200px;
+}
+.blue_header_3 {
+    width: 100vw;
+    height: 200px;
+    background-color:blue;
+    margin: auto;
+    margin-top: 200px;
+}
+.cluster_1 {
+    width: 100vw;
+    height: 300px;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    display: grid;
+    border: solid black 10px;
+}
+.side {
+    background-color:black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.side_2 {
+    background-color:black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.pic {
+    background-color:grey;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.box_1 {
+    width: 30vw;
+    height: 200px;
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    margin: auto;
+    margin-top: 200px;
+    grid-gap: 20px;
+    background-color: grey;
+    padding: 20px;
+}
+.box_2 {
+    display: grid;
+    margin: auto;
+    background-color: white;
+    grid-template-rows: 2fr 1fr;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+    grid-gap: 10px;
+}
+.box_3 {
+    display: grid;
+    margin: auto;
+    background-color: white;
+    grid-template-rows: 2fr 1fr;
+    padding: 20px;
+    height: 400px;
+    width: 150px;
+    grid-gap: 50px;
+}
+.album {
+    background-color:black;
+}
+.title {
+    background-color:white;
+}
+.title_2 {
+    background-color:grey;
+}
+.cluster_2 {
+    width: 70vw;
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    background-color: gray;
+    margin: auto;
+    margin-top: 50px;
+}
+.cluster_3 {
+    width: 70vw;
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    background-color: gray;
+    margin: auto;
+    margin-top: 50px;
+}
+.cluster_4 {
+    width: 70vw;
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    background-color: gray;
+    margin: auto;
+    margin-top: 50px;
+}

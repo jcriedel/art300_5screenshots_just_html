@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .base {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 60vw;
+    height: 1750px;
+    margin: auto;
+    margin-top: 10vw;
+    padding: 20px;
+  }
+  .header {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    height: 50px;
+    margin: auto;
+  }
+  .header_2 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    height: 10px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .item {
+    border: 5px solid black;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+  }
+  .search {
+    background-color: gray;
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .info {
+    width: 40vw;
+    height: 200px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr 1fr;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .pic {
+    background-color: white;
+  }
+  .text {
+    background-color: white;
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+  .bar {
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+  }
+  .search_bar {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+  }
+  .terms {
+    background-color: black;
+  }
+  .logo_bg {
+    background-color: gray;
+  }
+  .logo {
+    background-color: black;
+  }
+  .grey_bar {
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+  }
+  .black {
+    background-color: black;
+  }
+  .black_bar {
+    background-color:black;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+  }
